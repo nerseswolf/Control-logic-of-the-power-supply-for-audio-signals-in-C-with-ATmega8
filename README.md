@@ -9,7 +9,7 @@ This signal is analog and is converted into a digital value by the built-in ADC.
 This value is then the maximum volume level for the sound. The alarm tone itself will play like a piano key in terms of volume amplitude, with the read-in analog input value as the maximum volume point, as shown in the following figure. 
 The value is then output digitally, in 8 bits, to a digital-to-analog converter, whereupon the analog signal is passed to the VCA to control how much amplification it should provide.
 
-Volume curve of the alarm tone amplified by the VCA:
+Volume curve of alarm tone amplified by VCA:
 ![Volume curve of the alarm tone amplified by the VCA](src/ton.jpg)
 
 The digital on/off signal determines both the time for which the sound is to be generated and that the sound is output at all. 
